@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/banner.css">
     <link rel="stylesheet" href="styles/info.css">
+    <link rel="stylesheet" href="styles/habilidades.css">
+    <link rel="stylesheet" href="styles/formulario.css">
     <link rel="stylesheet" href="styles/decoracion.css">
 
 </head>
@@ -33,10 +35,12 @@
   </section>
       <section class="habilidades">
           <h2>Mis skills</h2>
-          <p>Convertirme en titan</p>
-          <p>Cuidar de mis amigos</p>
-          <p>Matar titanes</p>
-          <p>Manipulación</p>
+          <ul class="detalles">
+            <li>Aventurero</li>
+            <li>Valiente</li>
+            <li>Protector</li>
+            <li>Psicopata</li>
+          </ul>
       </section>
       <section class="banner">
           <div class="image"></div>
@@ -45,50 +49,51 @@
           </div>
       </section>
   </main>
-      <section id="Formulario">
+  <section id="Formulario"></section>
+    <form action="" id="suscribe">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Quién eres">
+        </div>
 
-          <form action="" id="suscribe">
-            <p>
-              <label for="nombre">Nombre:</label>
-              <input type="text" name="nombre" id="nombre" placeholder="Quién eres">
-            </p>
-  
-            <p>
-              <label for="apellido">Apellido:</label>
-              <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
-            </p>
-  
-            <p>
-              <label for="telefono">Telefono</label>
-              <input type="text" name="telefono" id="telefono" placeholder="telefono">
-            </p>
-  
-            <p>
-              <label for="email">Guithub username</label>
-              <input type="email" name="Github username" id="email" placeholder="username">
-            </p>
-  
-            <p>
-              <label for="escoger">Como me conociste?:</label>
-              <ul class="opciones">
-                  <li>Dentro de la murralla Maria</li>
-                  <li>Cadetes en el euipo de explloracion</li>
-                  <li>Fuera de los muros</li>
-                  <li>Luchando conta los titanes</li>
-              </ul>
-            </p>
-            <p>
-              <label for="info">Mas información</label>
-              <textarea name="info" id="form-info" cols="10"  rows="10" placeholder="Que mas quieres saber?"></textarea>
-            </p>
-            <p>
-              <input type="submit" value="Enviar"> 
-            </p>
-            <p>
-              <input type="submit" value="Reset"> 
-              </p>
-          </form>
-        </section>
+        <div>
+            <label for="apellidos">Apellido:</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+        </div>
+
+        <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="text" name="telefono" id="telefono" placeholder="Teléfono">
+        </div>
+
+        <div>
+            <label for="github">GitHub Username:</label>
+            <input type="text" name="github" id="github" placeholder="username">
+        </div>
+
+        <div>
+            <label for="escoger">¿Cómo me conociste?:</label>
+            <ul class="opciones">
+                <li>Dentro de la muralla María</li>
+                <li>Cadetes en el equipo de exploración</li>
+                <li>Fuera de los muros</li>
+                <li>Luchando contra los titanes</li>
+            </ul>
+        </div>
+
+        <div>
+            <label for="info">Más información:</label>
+            <textarea name="info" id="form-info" cols="10" rows="10" placeholder="¿Qué más quieres saber?"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+  </section>
+
+
   
   <footer class="footer">
           <img src="./image/yt.png" alt="Youtube">

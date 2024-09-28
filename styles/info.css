@@ -1,6 +1,7 @@
 .info {
   h1 {
     color: rgb(49, 168, 6);
+    text-decoration: underline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style:italic;
     font-size: 30px;
