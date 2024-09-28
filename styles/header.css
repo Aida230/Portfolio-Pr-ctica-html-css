@@ -1,0 +1,14 @@
+.header-fondo {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  background-image: url('../image/paisaje.png');
+  background-size: cover;
+  background-position: center;
+  height: 100hv;
+  opacity: 0.9;
+}
