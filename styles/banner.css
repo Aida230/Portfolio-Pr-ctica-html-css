@@ -1,0 +1,24 @@
+.banner {
+  height: 75vh;
+  align-content: center;
+  position: relative;
+  .content {
+    font-weight: 1000;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+  }
+  .image {
+    background-image: url('../image/13.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    width: 500px;
+    height: auto;
+  }
+}
