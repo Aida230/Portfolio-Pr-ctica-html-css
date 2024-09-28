@@ -1,0 +1,13 @@
+.info {
+  h1 {
+    color: rgb(49, 168, 6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-size: 30px;
+    margin: 10px;
+   }
+   h3 {
+    color: rgb(48, 14, 14);
+    margin: 10px;
+   }
+}

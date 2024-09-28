@@ -20,6 +20,7 @@
   }
   .nav {
     .btn {
+      text-decoration: none;
       padding: 1rem;
       position: absolute;
       list-style: none;
