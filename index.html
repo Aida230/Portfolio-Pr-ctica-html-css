@@ -5,32 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio</title>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/banner.css">
-    <link rel="stylesheet" href="styles/header.css">
+
 </head>
 <body class="main-bg">
     <header class="header">
-        <img class="image" src="./image/images (1).jpg" alt="Eren Yeager brand">
+            <img class="image" src="" alt="EREN">
         <nav class="nav">
-            <ul class="list">
-                <li class="Item">
-                    <a class="btn" href="proyectos">Proyectos</a>
-                </li>
-                <li class="Item">
-                    <a class="btn" href="skills">Skills</a>
-                </li>
-                <li class="Item">
-                    <a class="Item" href="contacto">Contacto</a>
-                </li>
-            </ul>
+                <a href="#Menu">Menu</a>
         </nav>
     </header>
     <main>
-        <h1>Eren Yeager</h1>
-        <section class="banner">
-            <div class="image"></div>
+        <section class="info">
+            <div>
+                <h1>Eren Yeager</h1>
+            </div>
             <div class="content">
                 <h2>
                     <p class="parrafo">Soy Eren Yeager.
@@ -40,13 +29,69 @@
                 </h2>
             </div>
         </section>
-    </main>
-
-    <section id="Mis skills">
-        <h3>Mis skills</h3>
+        <section class="habilidades">
+            <p>MIS SKILL</p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
         </section>
-    <footer>
-    </footer>
+        <section class="banner">
+            <div class="image"></div>
+            <div class="content">
+                <p>Eren Portfolio</p>
+            </div>
+        </section>
+    </main>
+        <section id="Formulario">
 
-    </body>
+            <form action="" id="suscribe">
+              <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Quién eres">
+              </p>
+    
+              <p>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+              </p>
+    
+              <p>
+                <label for="telefono">Telefono</label>
+                <input type="text" name="telefono" id="telefono" placeholder="telefono">
+              </p>
+    
+              <p>
+                <label for="email">Guithub username</label>
+                <input type="email" name="Github username" id="email" placeholder="username">
+              </p>
+    
+              <p>
+                <label for="escoger">Como me conociste?:</label>
+                <ul class="opciones">
+                    <li>Dentro de la murralla Maria</li>
+                    <li>Cadetes en el euipo de explloracion</li>
+                    <li>Fuera de los muros</li>
+                    <li>Luchando conta los titanes</li>
+                </ul>
+              </p>
+              <p>
+                <label for="info">Mas información</label>
+                <textarea name="info" id="form-info" cols="10"  rows="10" placeholder="Que mas quieres saber?"></textarea>
+              </p>
+              <p>
+               <input type="submit" value="Enviar"> 
+              </p>
+              <p>
+                <input type="submit" value="Reset"> 
+               </p>
+            </form>
+          </section>
+    
+    <footer class="footer">
+            <img src="./image/yt.png" alt="Youtube">
+            <img src="./image/ig.png" alt="Instagram">
+            <img src="./image/twitter.png" alt="twitter">
+    </footer>
+</body>
 </html>
