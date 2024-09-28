@@ -11,4 +11,23 @@
   background-position: center;
   height: 100hv;
   opacity: 0.9;
+  min-width: 425px;
+  .image {
+    width: 17%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .nav {
+    .btn {
+      padding: 1rem;
+      position: absolute;
+      list-style: none;
+      color: yellow;
+      display: flex;
+      gap: 10px;
+      right: 0;
+    }
+  }
+
 }
