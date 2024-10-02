@@ -10,15 +10,29 @@
     <link rel="stylesheet" href="styles/banner.css">
     <link rel="stylesheet" href="styles/info.css">
     <link rel="stylesheet" href="styles/habilidades.css">
+    <link rel="stylesheet" href="styles/botones.css">
     <link rel="stylesheet" href="styles/formulario.css">
     <link rel="stylesheet" href="styles/decoracion.css">
 
 </head>
 <body class="main-bg">
   <header class="header-fondo">
-    <img class="image" src="./image/4a8cc08324daaca5669eec2e570d2503.png" alt="">
+    <img class="image" src="./image/4a8cc08324daaca5669eec2e570d2503.png" alt="Eren">
       <nav class="nav">
-        <a class="btn" href="#Menu">Menú</a>
+        <ul class="list">
+            <li>
+                <a class="btn" href="#Menu">Menú</a>
+            </li>
+            <li>
+                <a class="btn hidden" href="#Proyectos" >Proyectos</a>
+            </li>
+            <li>
+                <a class="btn hidden" href="#Skills" >Skills</a>
+            </li>
+            <li>
+                <a class="btn hidden" href="#Contacto" >Contacto</a>
+            </li>
+        </ul>
       </nav>
   </header>
   <main>
@@ -33,7 +47,7 @@
           </h3>
       </div>
   </section>
-      <section class="habilidades">
+      <section id="Skills">
           <h2>Mis skills</h2>
           <ul class="detalles">
             <li>Aventurero</li>
@@ -49,8 +63,8 @@
           </div>
       </section>
   </main>
-  <section id="Formulario"></section>
-    <form action="" id="suscribe">
+  <section id="Contacto"></section>
+    <form action="Formulario" id="suscribe">
         <div>
             <label for="nombre">Nombre:</label>
             <input type="text" name="nombre" id="nombre" placeholder="Quién eres">
@@ -70,16 +84,16 @@
             <label for="github">GitHub Username:</label>
             <input type="text" name="github" id="github" placeholder="username">
         </div>
-
+ 
         <div>
-            <label for="escoger">¿Cómo me conociste?:</label>
-            <ul class="opciones">
+            <input type="radio" id="opciones" name="opciones" value="opciones" checked>
                 <li>Dentro de la muralla María</li>
                 <li>Cadetes en el equipo de exploración</li>
                 <li>Fuera de los muros</li>
                 <li>Luchando contra los titanes</li>
             </ul>
         </div>
+        
 
         <div>
             <label for="info">Más información:</label>

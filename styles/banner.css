@@ -1,26 +1,31 @@
 .banner {
-  height: 75vh;
-  align-content: center;
+  height: 55vh;
+  align-items: center ;
+  display: flex;
+  justify-content: center;
   position: relative;
-  overflow: hidden;
   .content {
-    font-weight: 1000;
+    display: inline-block;
     text-align: center;
     z-index: 1;
     position: relative;
+    p {
+      color: yellow;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 1000;
+    }
 
   }
   .image {
     background-image: url('../image/titan1.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
+    z-index: -1;
     left: 0;
     top: 0;
     right: 0;
-    bottom: 0;
-    opacity: 0.9;
-    width: 500px;
-    height: auto;
+    bottom: 0;  
   }
 }

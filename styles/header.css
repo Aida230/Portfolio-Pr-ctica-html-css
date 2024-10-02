@@ -8,6 +8,8 @@
   padding: auto;
   background-image: url("../image/paisaje.png");
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   opacity: 0.9;
   .image {
     width: auto;
@@ -16,11 +18,8 @@
     left: 0;
   }
   .nav {
-    .btn {
-      text-decoration: none;
-      font-weight: bold;
-      padding: 1rem;
-      color: yellow;
+    .list {
+      list-style-type: none;
     }
   }
 }
