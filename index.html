@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,104 +16,113 @@
     <link rel="stylesheet" href="styles/decoracion.css">
 
 </head>
+
 <body class="main-bg">
-  <header class="header-fondo">
-    <img class="image" src="./image/4a8cc08324daaca5669eec2e570d2503.png" alt="Eren">
-      <nav class="nav">
-        <ul class="list">
-            <li>
-                <a class="btn" href="#Menu">Menú</a>
-            </li>
-            <li>
-                <a class="btn hidden" href="#Proyectos" >Proyectos</a>
-            </li>
-            <li>
-                <a class="btn hidden" href="#Skills" >Skills</a>
-            </li>
-            <li>
-                <a class="btn hidden" href="#Contacto" >Contacto</a>
-            </li>
-        </ul>
-      </nav>
-  </header>
-  <main>
-  <section class="info">
-      <div>
-          <h1>Eren Jeager</h1>
-          <h3>
-              Soy Eren Jeager.
-              Nací en el distrito de Shiganshina, al sur de las murallas.
-              Desde que era un niño, lo único que he deseado es libertad,
-              pero crecí encerrado en estas malditas murallas que nos separan del mundo exterior.</p>
-          </h3>
-      </div>
-  </section>
-      <section id="Skills">
-          <h2>Mis skills</h2>
-          <ul class="detalles">
-            <li>Aventurero</li>
-            <li>Valiente</li>
-            <li>Protector</li>
-            <li>Psicopata</li>
-          </ul>
-      </section>
-      <section class="banner">
-          <div class="image"></div>
-          <div class="content">
-              <p>EREN PORTFOLIO</p>
-          </div>
-      </section>
-  </main>
-  <section id="Contacto"></section>
-    <form action="Formulario" id="suscribe">
-        <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Quién eres">
-        </div>
-
-        <div>
-            <label for="apellidos">Apellido:</label>
-            <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
-        </div>
-
-        <div>
-            <label for="telefono">Teléfono:</label>
-            <input type="text" name="telefono" id="telefono" placeholder="Teléfono">
-        </div>
-
-        <div>
-            <label for="github">GitHub Username:</label>
-            <input type="text" name="github" id="github" placeholder="username">
-        </div>
- 
-        <div>
-            <input type="radio" id="opciones" name="opciones" value="opciones" checked>
-                <li>Dentro de la muralla María</li>
-                <li>Cadetes en el equipo de exploración</li>
-                <li>Fuera de los muros</li>
-                <li>Luchando contra los titanes</li>
+    <header class="header-fondo">
+        <img class="image" src="./image/4a8cc08324daaca5669eec2e570d2503.png" alt="Eren">
+        <nav class="nav">
+            <ul class="list">
+                <li>
+                    <a class="btn" href="#Menu">Menú</a>
+                </li>
+                <li>
+                    <a class="btn hidden" href="proyectos.html">Proyectos</a>
+                </li>
+                <li>
+                    <a class="btn hidden" href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a class="btn hidden" href="#contacto">Contacto</a>
+                </li>
             </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="info">
+            <div>
+                <h1>Eren Jeager</h1>
+                <h3>
+                    Soy Eren Jeager.
+                    Nací en el distrito de Shiganshina, al sur de las murallas.
+                    Desde que era un niño, lo único que he deseado es libertad,
+                    pero crecí encerrado en estas malditas murallas que nos separan del mundo exterior.</p>
+                </h3>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Mis skills</h2>
+            <ul class="detalles">
+                <li>Aventurero</li>
+                <li>Valiente</li>
+                <li>Protector</li>
+                <li>Psicopata</li>
+            </ul>
+        </section>
+        <section class="banner">
+            <div class="image"></div>
+            <div class="content">
+                <p>EREN PORTFOLIO</p>
+            </div>
+        </section>
+    </main>
+    <br>
+    <section id="contacto">
+    <form method="post" novalidate>
+        <div class="div">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Quién eres" required>
         </div>
-        
 
-        <div>
+        <div class="div">
+            <label for="apellidos">Apellido:</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" required>
+        </div>
+
+        <div class="div">
+            <label for="telefono">Teléfono:</label>
+            <input type="text" name="telefono" id="telefono" placeholder="Teléfono" required>
+        </div>
+
+        <div class="div">
+            <label for="github">GitHub Username:</label>
+            <input type="text" name="github" id="github" placeholder="username" required>
+        </div>
+
+        <div class="div">
+            <label class="pregunta" for="pregunta" required>Como me conociste?</label>
+            <label for="opciones">Dentro del muro Maria</label>
+            <input type="radio" id="opciones" name="opciones" value="opciones" checked>
+            <label for="opciones">Cadetes en el equipo de exploración</label>
+            <input type="radio" id="opciones" name="opciones" value="opciones" checked>
+            <label for="opciones">Fuera de los muros</label>
+            <input type="radio" id="opciones" name="opciones" value="opciones" checked>
+            <label for="opciones">Luchando contra los titanes</label>
+            <input type="radio" id="opciones" name="opciones" value="opciones" checked>
+        </div>
+
+
+        <div class="div">
             <label for="info">Más información:</label>
-            <textarea name="info" id="form-info" cols="10" rows="10" placeholder="¿Qué más quieres saber?"></textarea>
+            <textarea name="info" id="form-info" maxlength="180" rows="10" placeholder="¿Qué más quieres saber?"></textarea>
         </div>
 
-        <div>
+        <div class="div">
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label class="pointer" for="newsletter">Quiero acceso a la newsletter</label>
+
+        </div>
+
+        <div class="div">
             <input type="submit" value="Enviar">
             <input type="reset" value="Reset">
         </div>
     </form>
-  </section>
-
-
-  
-  <footer class="footer">
-          <img src="./image/yt.png" alt="Youtube">
-          <img src="./image/ig.png" alt="Instagram">
-          <img src="./image/twitter.png" alt="twitter">
-  </footer>
+    </section>
+    <footer class="footer">
+        <a href=""><img src="./image/yt.png" alt="Youtube" target="_blank" rel="noopener noreferrer"></a>
+        <a href=""><img src="./image/ig.png" alt="Instagram" target="_blank" rel="noopener noreferrer"></a>
+        <a href=""><img src="./image/twitter.png" alt="twitter" target="_blank" rel="noopener noreferrer"></a>
+    </footer>
 </body>
+
 </html>

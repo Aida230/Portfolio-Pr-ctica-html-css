@@ -1,4 +1,3 @@
-
 form div {
   margin: 10px;
   margin-bottom: 15px; /* Espacio entre cada campo */
@@ -58,4 +57,10 @@ input[type="reset"] {
 input[type="submit"]:hover, 
 input[type="reset"]:hover {
   background-color: #021d05; /* Color más oscuro al pasar el cursor */
+}
+
+.opciones {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
