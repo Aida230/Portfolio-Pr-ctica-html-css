@@ -1,66 +1,79 @@
-form div {
-  margin: 10px;
-  margin-bottom: 15px; /* Espacio entre cada campo */
+/* Estilo para la sección de skills */
+#skills {
+  max-width: 600px;
+  margin: 20px auto;
 }
 
-label {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  display: block; /* Para asegurar que aparezca encima del campo */
-}
-
-input[type="text"], 
-input[type="email"], 
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #37bb07a1;
-  border-radius: 4px;
-  font-size: 14px;
-  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total del input */
-  background-color: #fafaf9;
-}
-
-input[type="text"]:focus, 
-input[type="email"]:focus, 
-textarea:focus {
-  border-color: #007BFF; /* Cambia el color del borde cuando el campo está en foco */
-  outline: none;
-}
-
-textarea {
-  resize: vertical; /* Permite que el área de texto se redimensione solo verticalmente */
-}
-
-ul.opciones {
+/* Lista de detalles */
+.detalles {
   list-style: none;
   padding: 0;
+
 }
 
-ul.opciones li {
-  margin-bottom: 5px;
+/* Estilos generales para la barra de progreso */
+.barra {
+
+  background-color: #e0e0df;
+  border-radius: 25px;
+  margin: 10px 0;
+  padding: 5px;
+  position: relative;
+  overflow: hidden; /* Evita que la animación sobresalga */
 }
 
-input[type="submit"], 
-input[type="reset"] {
-  background-color: rgb(86, 226, 43);;
-  color: rgb(3, 3, 3);
-  padding: 10px 15px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 14px;
-  margin-right: 10px;
+/* Estilos generales para el contenido de la barra */
+.barra li {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  padding-left: 10px;
 }
 
-input[type="submit"]:hover, 
-input[type="reset"]:hover {
-  background-color: #021d05; /* Color más oscuro al pasar el cursor */
+/* Barra de progreso 1: Aventurero */
+.barra1 {
+  width: 0;
+  background-color: #4caf50; /* Verde */
+  animation: progreso1 3s ease forwards;
 }
 
-.opciones {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+@keyframes progreso1 {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
+/* Barra de progreso 2: Valiente */
+.barra2 {
+  width: 0;
+  background-color: #f7941d; /* Naranja */
+  animation: progreso2 2s ease forwards;
+}
+
+@keyframes progreso2 {
+  0% { width: 0; }
+  100% { width: 75%; }
+}
+
+/* Barra de progreso 3: Protector */
+.barra3 {
+  width: 0;
+  background-color: #007BFF; /* Azul */
+  animation: progreso3 4s ease forwards;
+}
+
+@keyframes progreso3 {
+  0% { width: 0; }
+  100% { width: 85%; }
+}
+
+/* Barra de progreso 4: Psicopata */
+.barra4 {
+  width: 0;
+  background-color: #ff0000; /* Rojo */
+  animation: progreso4 5s ease forwards;
+}
+
+@keyframes progreso4 {
+  0% { width: 0; }
+  100% { width: 100%; }
 }

@@ -1,7 +1,14 @@
-#Skills {
-  h2 {
-    color: #000;
-    margin: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-  }
+#skills {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.barra {
+  background-color: #e0e0df;
+  border-radius: 20px;
+  margin: 10px 0;
+  padding: 5px;
+  position: relative;
+  height: 25px;
+  overflow: hidden;
 }
