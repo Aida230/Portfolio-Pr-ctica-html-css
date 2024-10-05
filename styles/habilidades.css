@@ -12,3 +12,46 @@
   height: 25px;
   overflow: hidden;
 }
+.barra1 {
+  width: 0;
+  background-color: #4caf50; /* Verde */
+  animation: progreso1 3s ease forwards;
+}
+
+@keyframes progreso1 {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
+.barra2 {
+  width: 0;
+  background-color: #f7941d; /* Naranja */
+  animation: progreso2 2s ease forwards;
+}
+
+@keyframes progreso2 {
+  0% { width: 0; }
+  100% { width: 75%; }
+}
+
+.barra3 {
+  width: 0;
+  background-color: #007BFF; /* Azul */
+  animation: progreso3 4s ease forwards;
+}
+
+@keyframes progreso3 {
+  0% { width: 0; }
+  100% { width: 85%; }
+}
+
+.barra4 {
+  width: 0;
+  background-color: #ff0000; /* Rojo */
+  animation: progreso4 5s ease forwards;
+}
+
+@keyframes progreso4 {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
