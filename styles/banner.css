@@ -1,7 +1,7 @@
 .banner {
-  height: 55vh;
-  align-items: center ;
+  height: 75vh;
   display: flex;
+  align-items: center ;
   justify-content: center;
   position: relative;
   .content {
@@ -27,5 +27,28 @@
     top: 0;
     right: 0;
     bottom: 0;  
+  }
+  .imagepc {
+    background-image: url('../image/banner111111.jpg');
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .imagepc {
+      display: none; /* Ocultar imagen de escritorio */
+  }
+
+  .image {
+      display:inline-block; /* Mostrar imagen de móvil */
   }
 }
