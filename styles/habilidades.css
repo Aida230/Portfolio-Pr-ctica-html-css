@@ -3,6 +3,10 @@
   margin: 20px auto;
 }
 
+.detalles {
+  padding: 1 rem;
+}
+
 .barra {
   background-color: #e0e0df;
   border-radius: 20px;
@@ -14,7 +18,7 @@
 }
 .barra1 {
   width: 0;
-  background-color: #4caf50; /* Verde */
+  background-color: #4caf50;
   animation: progreso1 3s ease forwards;
 }
 
@@ -25,7 +29,7 @@
 
 .barra2 {
   width: 0;
-  background-color: #f7941d; /* Naranja */
+  background-color: #f7941d;
   animation: progreso2 2s ease forwards;
 }
 
@@ -36,7 +40,7 @@
 
 .barra3 {
   width: 0;
-  background-color: #007BFF; /* Azul */
+  background-color: #007BFF;
   animation: progreso3 4s ease forwards;
 }
 
@@ -47,11 +51,11 @@
 
 .barra4 {
   width: 0;
-  background-color: #ff0000; /* Rojo */
+  background-color: #ff0000;
   animation: progreso4 5s ease forwards;
 }
 
 @keyframes progreso4 {
   0% { width: 0; }
-  100% { width: 100%; }
+  100% { width: 90%; }
 }
