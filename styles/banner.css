@@ -29,6 +29,8 @@
     bottom: 0;  
   }
   .imagepc {
+    max-width: 80%;
+    margin: 0 auto;
     background-image: url('../image/banner111111.jpg');
     height: auto;
     background-position: center;
