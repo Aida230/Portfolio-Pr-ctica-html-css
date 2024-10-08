@@ -1,18 +1,18 @@
 .info {
   h1 {
-    color: rgb(49, 168, 6);
+    color: var(--main-text-color);
     text-decoration: underline;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--main-font-family);
     font-style:italic;
-    font-size: 30px;
-    margin: 10px;
+    font-size: 2rem;
+    margin: 0.5rem;
    }
    h3 {
-    color: rgb(48, 14, 14);
-    margin: 10px;
+    color: var(--secundary-text-color);
+    margin: 0.5rem;
    }
 }
 h2 {
-  color:rgb(0, 0, 0);
+  color: var(--secundary-text-color);
   margin: 1rem;
 }

@@ -8,7 +8,7 @@
 }
 
 .barra {
-  background-color: #e0e0df;
+  background-color: var(--skills-bg-color);
   border-radius: 20px;
   margin: 0.5rem 0;
   padding: 0.2rem;
@@ -18,7 +18,7 @@
 }
 .barra1 {
   width: 0;
-  background-color: #4caf50;
+  background-color: var(--barra1-color);
   animation: progreso1 3s ease forwards;
 }
 
@@ -29,7 +29,7 @@
 
 .barra2 {
   width: 0;
-  background-color: #f7941d;
+  background-color: var(--barra2-color);
   animation: progreso2 2s ease forwards;
 }
 
@@ -40,7 +40,7 @@
 
 .barra3 {
   width: 0;
-  background-color: #007BFF;
+  background-color: var(--barra3-color);
   animation: progreso3 4s ease forwards;
 }
 
@@ -51,7 +51,7 @@
 
 .barra4 {
   width: 0;
-  background-color: #ff0000;
+  background-color: var(--barra4-color);
   animation: progreso4 5s ease forwards;
 }
 

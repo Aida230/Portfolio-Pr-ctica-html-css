@@ -16,25 +16,24 @@ input[type="email"],
 textarea {
   width: 100%;
   padding: 0.5rem;
-  border: 1px solid #37bb07a1;
+  border: var(--input-border-color) 1px solid;
   border-radius: 4px;
   font-size: 1rem;
   box-sizing: border-box;
-  background-color: #f5dd4351;
+  background-color: var(--input-bg-color)
 }
 
 input[type="text"]:focus, 
 input[type="email"]:focus, 
 textarea:focus {
-  border-color: #3b9a07;
+  border-color: var( --focus-boder-color);
   outline: none;
 }
 
 
 input[type="submit"], 
 input[type="reset"] {
-  background-color: rgb(238, 238, 13);;
-  color: rgb(0, 0, 0);
+  background-color: var(--btn-color);
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 4px;
@@ -46,7 +45,7 @@ input[type="reset"] {
 
 input[type="submit"]:hover, 
 input[type="reset"]:hover {
-  background-color: #0ae4237a;
+  background-color: var(--submit-reset-hover-color);
 }
 
 .opciones {
