@@ -1,6 +1,6 @@
 #skills {
-  max-width: 600px;
-  margin: 20px auto;
+  max-width: 37rem;
+  margin: 0 auto;
 }
 
 .detalles {
@@ -10,10 +10,10 @@
 .barra {
   background-color: #e0e0df;
   border-radius: 20px;
-  margin: 10px 0;
-  padding: 5px;
+  margin: 0.5rem 0;
+  padding: 0.2rem;
   position: relative;
-  height: 25px;
+  height: 1.5rem;
   overflow: hidden;
 }
 .barra1 {

@@ -1,10 +1,10 @@
 .div {
-  margin: 10px;
-  margin-bottom: 15px;
+  margin: 1rem;
+  margin-bottom: 1rem;
   label {
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
     display: block;
   }
 }
@@ -15,10 +15,10 @@ input[type="text"],
 input[type="email"], 
 textarea {
   width: 100%;
-  padding: 10px;
+  padding: 0.5rem;
   border: 1px solid #37bb07a1;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 1rem;
   box-sizing: border-box;
   background-color: #f5dd4351;
 }
@@ -35,7 +35,7 @@ input[type="submit"],
 input[type="reset"] {
   background-color: rgb(238, 238, 13);;
   color: rgb(0, 0, 0);
-  padding: 10px 15px;
+  padding: 0.5rem 1rem;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -52,7 +52,7 @@ input[type="reset"]:hover {
 .opciones {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.5rem;
 }
 
 @media (min-width: 768px) {
