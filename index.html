@@ -60,25 +60,25 @@
     </main>
     <br>
     <section id="contacto">
-    <form method="post" novalidate>
+    <form method="post">
         <div class="div">
             <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Quién eres" required>
+            <input type="text" name="nombre" id="nombre" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" placeholder="Quién eres" required>
         </div>
 
         <div class="div">
             <label for="apellidos">Apellido:</label>
-            <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" required>
+            <input type="text" name="apellidos" id="apellidos" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" placeholder="Apellidos" required>
         </div>
 
         <div class="div">
             <label for="telefono">Teléfono:</label>
-            <input type="text" name="telefono" id="telefono" placeholder="Teléfono" required>
+            <input type="text" name="telefono" pattern="+34 [0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}" id="telefono"  placeholder="Teléfono" required>
         </div>
 
         <div class="div">
             <label for="github">GitHub Username:</label>
-            <input type="text" name="github" id="github" placeholder="username" required>
+            <input type="text" name="github" id="github" pattern="^@[^\s]+" placeholder="username" required>
         </div>
 
         <div class="div">

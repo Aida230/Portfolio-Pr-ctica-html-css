@@ -31,7 +31,7 @@ section {
   margin: 1rem 0;
 }
 
-/* Media query para pantallas más grandes (escritorio) */
+/* Media query para pantallas más grandes*/
 @media (min-width: 768px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
